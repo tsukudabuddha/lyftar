@@ -18,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        /* Lyft Config
+        LyftConfiguration.developer = (token: "UsE+I4bwC7elJUMpu/RAY+r/xpVmaOZ/45115h455bSnt/4tPO48gWDk3/VcxZnRNrdg09gHGBMrhenVidloy0ogzL3kz6xe3qFjQey5LplnDVLFwVDbp+8=", clientId: "kXevB2y9jHlE") // MARK: Change this when decide on dev account
+        */
         DDLog.add(DDTTYLogger.sharedInstance) // TTY = Xcode console
         let fileLogger: DDFileLogger = DDFileLogger() // File Logger
         fileLogger.rollingFrequency = TimeInterval(60*60*24)  // 24 hours

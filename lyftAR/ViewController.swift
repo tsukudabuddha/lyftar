@@ -66,8 +66,8 @@ class ViewController: UIViewController, MKMapViewDelegate, SceneLocationViewDele
             sceneLocationView.showFeaturePoints = true
         }
         
-        //Currently set to Canary Wharf
-        let pinCoordinate = CLLocationCoordinate2D(latitude: 51.504607, longitude: -0.019592)
+        //Currently set to Pyramid Building
+        let pinCoordinate = CLLocationCoordinate2D(latitude: 37.79501849999999, longitude: -122.40274679999999)
         let pinLocation = CLLocation(coordinate: pinCoordinate, altitude: 236)
         let pinImage = UIImage(named: "pin")!
         let pinLocationNode = LocationAnnotationNode(location: pinLocation, image: pinImage)
